@@ -8,6 +8,11 @@
   amount: 10001
   currency: dollars
   employee_type: part_time
+- name: John Doe
+  title: Dev2
+  amount: 10002
+  currency: dollars
+  employee_type: part_time
 - name: Bob Contractor
   title: Dev Contractor
   amount: 50

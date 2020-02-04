@@ -8,9 +8,13 @@ def readPayee(person_name):
         except yaml.YAMLError as exc:
             print(exc)
 
+    person_found = False
     for person in directory:
         if person['name'] == person_name:
+            person_found = True
             printCheck(person)
+    if not person_found:
+        print(person_name + " not found!")
 
 
 def printCheck(person):
