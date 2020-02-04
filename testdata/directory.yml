@@ -1,0 +1,15 @@
+- name: Jane Smith
+  title: Operations Director
+  amount: 10000
+  currency: euros
+  employee_type: full_time
+- name: John Doe
+  title: Dev
+  amount: 10001
+  currency: dollars
+  employee_type: part_time
+- name: Bob Contractor
+  title: Dev Contractor
+  amount: 50
+  currency: dollars
+  employee_type: contractor
